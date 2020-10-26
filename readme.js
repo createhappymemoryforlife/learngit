@@ -10,3 +10,8 @@ console.log(1);
 // 5.git push -u origin master
 // 加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
 // 推送失败需要把本地的公钥放在远程的ssh key内,再进行git push -u origin master,显示Branch 'master' set up to track remote branch 'master' from 'origin'关联.
+
+// 6.git checkout -b dev (git branch dev ,git checkout dev)
+// HEAD指向的是当前的分支, git checkout dev 后，HEAD 指向的就是 dev 分支了，可以查看 .git/HEAD 这个文件知道 HEAD 指向
+// master或者dev指向的是各自分支的最新提交
+// head(小写)是commit对象的引用，在任何时候，只要这个head被选择为”current head“，那么这个head就变为了HEAD,总是大写
