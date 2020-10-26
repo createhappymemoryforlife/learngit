@@ -1,3 +1,3 @@
 console.log(2);
 console.log('dev');
-console.log('conflict');
+console.log('merge');
