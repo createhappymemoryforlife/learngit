@@ -31,3 +31,4 @@ console.log(2);
 // git branch -r(remote)查看远程分支 git branch -a(all)查看所有分支
 
 // 这是commit
+// 取消commit
