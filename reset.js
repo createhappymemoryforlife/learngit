@@ -21,4 +21,4 @@
 
 // # 撤销上一次向暂存区添加的某个指定文件，
 // # 不影响工作区中的该文件
-// $ git reset -- <filename>  //$ git reset -- frotz.c
+// $ git reset -- <filename> 准备冲突//$ git reset -- frotz.c
