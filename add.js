@@ -1,8 +1,4 @@
 console.log(2);
-console.log('dev');
-console.log('merge');
-console.log('devnomerge');
-console.log('devnomerge2');
 
 // git checkout -- <filename>
 // 把指定文件从暂存区复制到工作区,用来丢弃工作区对该文件的修改
